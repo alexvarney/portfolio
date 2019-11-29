@@ -1,0 +1,58 @@
+.page {
+    min-height: 100vh;
+    padding: 6rem 10% 2rem 10%;
+    border-top: 1px solid #e4e4e4;
+}
+
+.page h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #343435;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.page h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #343435;
+    margin: 2.5rem 0rem 1.0rem 0rem;
+}
+
+.page h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #005370;
+}
+
+.page p, .page li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #343435;
+}
+
+.aboutText{
+    padding-right: 2.5rem;
+}
+
+.aboutText p:last-child {
+    margin-bottom: 1.5rem;
+}
+
+.page a {
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+}

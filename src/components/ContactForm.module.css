@@ -1,0 +1,68 @@
+.formStyle {
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 0 0.5rem 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.formStyle h3 {
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    width: 100%;
+    color: #005370;
+}
+
+textarea{
+    width: 100%;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 26;
+    color: #343435;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    outline: none;
+    min-height: 11rem;
+}
+
+.formStyle input[type=text] {
+    width: 100%;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 0.5rem;
+    background: rgba(0, 83, 112, 0.5);
+    border: none;
+    font-size: 26;
+    color: #fff;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    outline: none;
+}
+
+.formStyle input[type=text]::placeholder {
+    color: #E5EDF0;
+}
+
+.formStyle button {
+    margin-top: 0.5rem;
+    border: 2px solid #005370;
+    border-radius: 0.5rem;
+    background: #fff;
+    color: #005370;
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: bold;
+    transition: 0.25s ease-out all;
+}
+
+.formStyle button:hover {
+    background: #005370;;
+    color: #fff;
+}

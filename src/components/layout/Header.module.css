@@ -1,0 +1,33 @@
+.nav {
+    height: 100px;
+    background:  linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    transition: 0.5s ease-in-out all;
+}
+
+.nav_hidden {
+    composes: nav;
+    top: -100px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.nav ul > li {
+    padding: 1.0rem;
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #005370;
+    cursor: pointer;
+}
+
+.nav ul > li:first-child {
+    color: #343435;
+}

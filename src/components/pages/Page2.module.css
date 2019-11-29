@@ -1,0 +1,30 @@
+.page {
+    padding: 6rem 2rem 6rem 2rem;
+    border-top: 1px solid #e4e4e4;
+}
+
+.page h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #343435;
+    text-align: left;
+    width: 100%;
+}
+
+.projects_container {
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projects_container .flex_child {
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 1rem;
+    flex-basis: 22rem;
+}
