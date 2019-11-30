@@ -9,7 +9,7 @@ export default function Header() {
 
   const onScroll = () => {
     setScrollPos(prevState => {
-      setScrollingDown(window.pageYOffset > prevState);
+      setScrollingDown(window.pageYOffset > prevState && window.pageYOffset > 1);
       return window.pageYOffset;
     });
   };

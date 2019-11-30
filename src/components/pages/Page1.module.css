@@ -7,15 +7,26 @@
     padding: 2rem;
 }
 
-.col_1 {
+.row_1 {
     flex-basis: 33%;
     flex-shrink: 1;
-    max-width: 20rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
 
-.col_2 {
+@media screen and (max-width: 750px){
+    .row_1 {
+        max-width: 50vw;
+    }
+}
+
+@media screen and (min-width: 751px){
+    .row_1 {
+        max-width: 20rem;
+    }
+}
+
+.row_2 {
     flex: 2 1 66%;
     display: flex;
     flex-direction: column;
@@ -72,5 +83,6 @@
     width: auto;
     height: auto;
     border: 3px solid #343435;
+    margin-bottom: 2rem;
 }
 

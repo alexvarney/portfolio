@@ -8,14 +8,14 @@ import { Link } from "react-scroll";
 export default function Page1() {
   return (
     <div id="home" className={classNames(styles.page)}>
-      <div className={styles.col_1}>
+      <div className={styles.row_1}>
         <img
           className={styles.profileImg}
           src={profilePicture}
           alt="My profile pic"
         />
       </div>
-      <div className={styles.col_2}>
+      <div className={styles.row_2}>
         <div className={styles.text}>
           <h1>👋, I'm Alex!</h1>
           <h2 className={styles.subtitle}>
