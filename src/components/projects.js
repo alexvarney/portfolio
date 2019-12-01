@@ -1,6 +1,9 @@
-import emPreview from '../assets/electionsmaster-figma.webp'
-import spotifyPreview from '../assets/spotify-lyrics-figma.webp'
-import calcPreview from '../assets/javascript-calculator-figma.webp'
+import emWebP from '../assets/electionsmaster-figma.webp'
+import spotifyWebP from '../assets/spotify-lyrics-figma.webp'
+import calcWebP from '../assets/javascript-calculator-figma.webp'
+import emPreview from '../assets/electionsmaster-figma.png'
+import spotifyPreview from '../assets/spotify-lyrics-figma.png'
+import calcPreview from '../assets/javascript-calculator-figma.png'
 
 const projects = [
     {
@@ -9,7 +12,8 @@ const projects = [
         demoUrl: 'https://electionsmaster.com',
         codeUrl: 'https://github.com/alexvarney/ElectionMaster',
         color: '#A3C5D9',
-        asset: emPreview
+        asset: emPreview,
+        assetWebP: emWebP
     },
     {
         name: 'Spotify Lyrics',
@@ -17,7 +21,8 @@ const projects = [
         demoUrl: 'https://spotify-lyrics.varney.me',
         codeUrl: 'https://github.com/alexvarney/spotify-lyrics',
         color: '#9DA6F2',
-        asset: spotifyPreview
+        asset: spotifyPreview,
+        assetWebP: spotifyWebP
     },
         {
         name: 'Vanilla JS Calculator',
@@ -25,7 +30,8 @@ const projects = [
         demoUrl: 'https://alexvarney.github.io/PureJSCalculator/',
         codeUrl: 'https://github.com/alexvarney/PureJSCalculator/',
         color: '#D9C3A3',
-        asset: calcPreview
+        asset: calcPreview,
+        assetWebP: calcWebP
     }
 ]
 

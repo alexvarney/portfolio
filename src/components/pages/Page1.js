@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Page1.module.css";
-import profilePicture from "../../assets/profile.webp";
+import profilePictureWebP from "../../assets/profile.webp";
+import profilePictureJpeg from "../../assets/profile.jpg"
 import classNames from "classnames";
 import { Link } from "react-scroll";
 
@@ -8,11 +9,12 @@ export default function Page1() {
   return (
     <div id="home" className={classNames(styles.page)}>
       <div className={styles.row_1}>
-        <img
-          className={styles.profileImg}
-          src={profilePicture}
-          alt="My profile pic"
-        />
+        <picture
+          
+        >
+          <source type="image/webp" srcSet={profilePictureWebP} alt="My profile pic"/>
+          <img className={styles.profileImg} src={profilePictureJpeg} alt="My profile pic"/>
+        </picture>
       </div>
       <div className={styles.row_2}>
         <div className={styles.text}>
