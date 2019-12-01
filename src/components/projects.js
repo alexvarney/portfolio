@@ -1,6 +1,6 @@
-import emPreview from '../assets/electionsmaster-figma.png'
-import spotifyPreview from '../assets/spotify-lyrics-figma.png'
-import calcPreview from '../assets/javascript-calculator-figma.png'
+import emPreview from '../assets/electionsmaster-figma.webp'
+import spotifyPreview from '../assets/spotify-lyrics-figma.webp'
+import calcPreview from '../assets/javascript-calculator-figma.webp'
 
 const projects = [
     {

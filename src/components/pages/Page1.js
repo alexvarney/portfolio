@@ -1,7 +1,6 @@
 import React from "react";
-import Page from "../layout/Page";
 import styles from "./Page1.module.css";
-import profilePicture from "../../assets/profile.jpg";
+import profilePicture from "../../assets/profile.webp";
 import classNames from "classnames";
 import { Link } from "react-scroll";
 
@@ -17,9 +16,9 @@ export default function Page1() {
       </div>
       <div className={styles.row_2}>
         <div className={styles.text}>
-          <h1>👋, I'm Alex!</h1>
+          <h1><span role="img" aria-label="Waving hand">👋</span>, I'm Alex!</h1>
           <h2 className={styles.subtitle}>
-            I’m a web developer from Waterloo, Ontario, 🇨🇦. I build full-stack
+            I’m a web developer from Waterloo, Ontario, <span role="img" aria-label="Canadian Flag">🇨🇦</span>. I build full-stack
             applications using React and Node.js.
           </h2>
         </div>

@@ -9,11 +9,11 @@ export default function ProjectCard({project}) {
         <div className={styles.card} style={{backgroundColor: color}}>
             <h3>{name}</h3>
             <div className={styles.inner_container}>
-                <img src={asset} />
+                <img src={asset} alt={`Screenshot of ${name}`}/>
                 <p className={styles.description}>{description}</p>
                 <div className={styles.buttonRow}>
-                    <a target="_blank" href={demoUrl}>Demo</a>
-                    <a target="_blank" href={codeUrl}>Code</a>
+                    <a target="_blank" rel="noopener noreferrer" href={demoUrl}>Demo</a>
+                    <a target="_blank" rel="noopener noreferrer" href={codeUrl}>Code</a>
                 </div>
             </div>
         </div>

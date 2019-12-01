@@ -4,6 +4,7 @@ import classNames from "classnames";
 import { Link } from "react-scroll";
 
 export default function Header() {
+  // eslint-disable-next-line
   const [scrollPos, setScrollPos] = useState(0);
   const [scrollingDown, setScrollingDown] = useState(false);
 

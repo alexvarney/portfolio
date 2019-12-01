@@ -1,8 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import Header from './components/layout/Header'
-
-import Page from './components/layout/Page'
 
 import Page1 from './components/pages/Page1'
 import Page2 from './components/pages/Page2'

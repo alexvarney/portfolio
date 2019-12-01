@@ -47,17 +47,17 @@ export default function Page3() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-4">
-                                    <a href="https://www.linkedin.com/in/varneyalex/">
-                                        <img src={LinkedinSvg}/>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/varneyalex/">
+                                        <img src={LinkedinSvg} alt="Linkedin logo"/>
                                     </a>
                                 </div>
-                                <div target="_blank" className="col-4">
-                                    <a target="_blank" href="https://github.com/alexvarney">
-                                        <img src={GithubSvg} />
+                                <div target="_blank" rel="noopener noreferrer" className="col-4">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/alexvarney">
+                                        <img src={GithubSvg} alt="Github logo" />
                                     </a>
                                 </div>
                                 <div className="col-4">
-                                    <a target="_blank" href="https://drive.google.com/open?id=14R9QL9GyZVMHm4k1XASP-VzfDoEDMUyr">View my resume</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=14R9QL9GyZVMHm4k1XASP-VzfDoEDMUyr">View my resume</a>
                                 </div>
                             </div>
                         </div>
