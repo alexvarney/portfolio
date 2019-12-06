@@ -1,9 +1,12 @@
 import emWebP from '../assets/electionsmaster-figma.webp'
 import spotifyWebP from '../assets/spotify-lyrics-figma.webp'
 import calcWebP from '../assets/javascript-calculator-figma.webp'
+import habitWebP from '../assets/habit-tracker.webp'
+
 import emPreview from '../assets/electionsmaster-figma.png'
 import spotifyPreview from '../assets/spotify-lyrics-figma.png'
 import calcPreview from '../assets/javascript-calculator-figma.png'
+import habitPreview from '../assets/habit-tracker.png'
 
 const projects = [
     {
@@ -24,7 +27,16 @@ const projects = [
         asset: spotifyPreview,
         assetWebP: spotifyWebP
     },
-        {
+    {
+        name: 'Habit Tracker',
+        description: 'An app for tracking daily habits written with the React and an Express/Mongo backend. Implements JWT auth and multi-user support. Login to demo with username: demo@varney.me, pass: password and click app name in nav.',
+        demoUrl: 'https://habittracker.varney.me',
+        codeUrl: 'https://github.com/alexvarney/habit-tracker',
+        color: '#C1C79E',
+        asset: habitPreview,
+        assetWebP: habitWebP
+    },
+    {
         name: 'Vanilla JS Calculator',
         description: 'A little calculator app that I made with vanilla JS for a school assignment. It implements an extensible binary parsing tree to take an arbitrary mathematical expression and calculate a result.',
         demoUrl: 'https://alexvarney.github.io/PureJSCalculator/',
